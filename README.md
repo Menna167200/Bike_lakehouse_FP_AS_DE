@@ -37,6 +37,8 @@ Raw data is ingested into the **Bronze Layer**, cleaned and standardized in the 
               ▼
          Gold Layer
      (Star Schema Model)
+
+
 ```
 
 ---
@@ -204,35 +206,6 @@ This project demonstrates several important data engineering practices:
 * Data enrichment from multiple systems
 * Pipeline orchestration with Databricks notebooks
 * Structuring a scalable lakehouse pipeline
-
----
-
-## Repository Structure
-
-```
-notebooks/
-│
-├── bronze/
-├── silver/
-└── gold/
-
-pipeline/
-run_pipeline.py
-
-README.md
-```
-
----
-
-## Future Improvements
-
-Potential extensions to the project include:
-
-* Adding a **Date Dimension**
-* Implementing **Slowly Changing Dimensions (SCD Type 2)**
-* Creating **data quality checks**
-* Adding **workflow orchestration**
-* Connecting to BI tools for dashboards
 
 ---
 
