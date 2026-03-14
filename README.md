@@ -45,6 +45,7 @@ Raw data is ingested into the **Bronze Layer**, cleaned and standardized in the 
 
 * Databricks
 * PySpark
+* Python
 * SQL
 * Delta Lake
 * GitHub
