@@ -38,9 +38,8 @@ Raw data is ingested into the **Bronze Layer**, cleaned and standardized in the 
          Gold Layer
      (Star Schema Model)
 
-![Lakehouse Architecture](Pipeline.png)
 ```
-
+![Lakehouse Architecture](Pipeline.png)
 ---
 
 ## Technologies Used
