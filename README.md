@@ -19,6 +19,8 @@ Special thanks to **Baraa Khatib Salkini** for creating such a valuable learning
 
 ## Architecture
 
+![Lakehouse Architecture](Pipeline.png)
+
 The pipeline follows the Medallion architecture commonly used in modern data lakehouses.
 
 Raw data is ingested into the **Bronze Layer**, cleaned and standardized in the **Silver Layer**, and finally transformed into business-ready tables in the **Gold Layer**.
@@ -39,7 +41,7 @@ Raw data is ingested into the **Bronze Layer**, cleaned and standardized in the 
      (Star Schema Model)
 
 ```
-![Lakehouse Architecture](Pipeline.png)
+
 ---
 
 ## Technologies Used
